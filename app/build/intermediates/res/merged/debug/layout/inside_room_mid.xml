@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="280"
+    android:gravity="center"
+    android:background="@drawable/border1">
+    <ListView
+        android:id="@+id/lvRoomPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout><!-- From: file:/home/manhtuong/Desktop/DauTri/app/src/main/res/layout/inside_room_mid.xml -->

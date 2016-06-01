@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/manhtuong/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.2.2/d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b/jackson-core-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/jackson-core-2.2.2-7e97aeb356fbae3dadbb2bd9ec7ae79226d5d425.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-android/2.5.2/f19f10d6276aa0b380e2d05d2ab3272d693a5433/firebase-client-android-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f19f10d6276aa0b380e2d05d2ab3272d693a5433">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.5.2-23e11820fd6abc1d15d24fd2e6465cb8e491241a.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.2.2/3c8f6018eaa72d43b261181e801e6f8676c16ef6/jackson-databind-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/jackson-databind-2.2.2-affa05213fdab499a6a58a8e002b8d3de102f51f.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.2.2/285cb9c666f0f0f3dd8a1be04e1f457eb7b15113/jackson-annotations-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.2.2-4463461053a12e400ac239cfa0b62fe08e3337d4.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/sfs2x-client-core.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6484adb02798412ba2c4e0cc257ffb8296b78f2a">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/sfs2x-client-core-b2040f80a98054233754d329fb98baef18538a64.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/gson-2.2.4-5e87156590c0b3ef036c07e18290d43241baca94.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/json-lib.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23757abf2e0814731fec51900257e4eac2477150">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/json-lib-26e3762048ad0329eb577021ffa7f2bbec5efad2.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/.gradle/caches/modules-2/files-2.1/com.firebase/tubesock/0.0.12/6ec0bbd3e161a73ed672284b587fd32309a86d7a/tubesock-0.0.12.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ec0bbd3e161a73ed672284b587fd32309a86d7a">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/tubesock-0.0.12-232f7e440fdb4eebe427bc37120153f2509c72ce.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/netty-3.2.2.Final.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4afed2b2038db3f5298da54314575ef194f8bd0">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/netty-3.2.2.Final-6700dcb9bcbb5bf89e2ccd4fadca450c03fbfa7a.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/aniqroid-2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef7925e24443a60f103dc3137b40ecaecbbec470">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/aniqroid-2.1-45c6f1c195b498fd0f3c85bc9086fedcf471643f.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/classes-f41c1a9d46f04217b8697f3523e253f6a0f933d4.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.6.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c1afa0ab2a8197a5da1b36c4167a9e479cb74d9">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/classes-edca5745038424706deceded64f2f2f429ac5348.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/classes-fbb7fb9c076f795fb086805004e2848c20eb7113.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/commons-lang-2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="16313e02a793435009f1e458fa4af5d879f6fb11">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/commons-lang-2.4-e8376134c8cbbe0b73946e7245ee41fd7f9eb41b.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-c2bbee434833d6224d92f1d33e127aa608da0b45.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/slf4j-api-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="37ec7b9f4640c525a3b00b6fcac9ccc99f361ed3">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/slf4j-api-1.6.1-f0c62a921cad547a34eb3654e9e50efb0c941bf8.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-c97522a0e4e019122edeb231d15260c2844187a4.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/firebase-client-android-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b54cf0400e2248d6c133c7b0a77dea1be09978cc">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/firebase-client-android-2.5.2-9ac3cd612cc9119116420ddf1df3514804c5e8e3.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/jdom.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1d04c0f321ea337f3661cf7ede8f4c6f653a8fdd">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/jdom-0583a4978c548b1da6fd2f445c522e4528240264.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-73122f9ed9f6fb938481fd35da987cd704298b69.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/SFS2X_API_Java.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dafefe350dbea9aa553d353427c6ad42813526fd">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/SFS2X_API_Java-560f07ed92a6947195070a7095aeb7f33379e03a.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/Desktop/DauTri/app/libs/slf4j-simple-1.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e4beb3e72eda6f903147475593017850d0dfd8af">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/slf4j-simple-1.6.1-6b538cd2621675dc171040b2e60358004ec0f00b.jar" />
+    </item>
+    <item
+        jar="/home/manhtuong/.gradle/caches/modules-2/files-2.1/com.firebase/firebase-client-jvm/2.5.2/91731b8f5868a3e8a8a773f29b8d06b5c358f5bb/firebase-client-jvm-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91731b8f5868a3e8a8a773f29b8d06b5c358f5bb">
+        <dex dex="/home/manhtuong/Desktop/DauTri/app/build/intermediates/pre-dexed/debug/firebase-client-jvm-2.5.2-c4fcb175c54410ec0b4734f9809bd955ea9a68a7.jar" />
+    </item>
+
+</items>

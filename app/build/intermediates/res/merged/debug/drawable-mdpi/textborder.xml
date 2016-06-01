@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    <solid android:color="#D3D3D3" />
+    <stroke
+        android:width="3dip"
+        android:color="#4fa5d5"/>
+</shape><!-- From: file:/home/manhtuong/Desktop/DauTri/app/src/main/res/drawable-mdpi/textborder.xml -->

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border1">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="80"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/ivPlayerAvatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPlayerName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textStyle="bold|normal"
+            android:textColor="@color/blue"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvRound1Point"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvRound2Point"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvRound3Point"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvRound4Point"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvRound5Point"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvTotalPoint"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvPlayerRank"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"/>
+
+</LinearLayout><!-- From: file:/home/manhtuong/Desktop/DauTri/app/src/main/res/layout/totalscoring_player_item.xml -->

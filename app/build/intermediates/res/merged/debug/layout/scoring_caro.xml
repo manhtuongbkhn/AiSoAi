@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/scoring_top"/>
+    <include layout="@layout/scoring_win"/>
+    <include layout="@layout/scoring_caro_content"/>
+    <include layout="@layout/scoring_default_point"/>
+    <include layout="@layout/scoring_bot"/>
+</LinearLayout><!-- From: file:/home/manhtuong/Desktop/DauTri/app/src/main/res/layout/scoring_caro.xml -->

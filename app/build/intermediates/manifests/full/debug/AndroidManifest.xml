@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sfs2x.example.android.tris"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        <activity
+            android:name="aisoai.screens.startscreen.StartActivity"
+            android:label="Start"
+            android:screenOrientation="locked" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="aisoai.screens.signinscreen.SignInActivity"
+            android:label="SignIn"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.hometabscreen.homeprofilescreen.ProfileActivity"
+            android:label="Home Profile"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.hometabscreen.roomlistscreen.RoomListActivity"
+            android:label="ListRoom"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.hometabscreen.HomeTabActivity"
+            android:label="Home Tab"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.insidetabscreen.InsideTabActivity"
+            android:label="Inside Tab"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.hometabscreen.friendtabcreen.FriendTabActivity"
+            android:label="Friend Tab"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.hometabscreen.friendtabcreen.friendlistscreen.FriendListActivity"
+            android:label="Friend List"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.hometabscreen.friendtabcreen.chatfriendscreen.ChatFriendActivity"
+            android:label="Chat Friend"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.hometabscreen.topuser.TopPlayerActivity"
+            android:label="Top User"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.hometabscreen.settings.SettingsActivity"
+            android:label="Settings"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.insidetabscreen.insideroomscreen.InsideRoomActivity"
+            android:label="InsideRoom"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.insidetabscreen.chatroomscreen.ChatRoomActivity"
+            android:label="Chat Room"
+            android:screenOrientation="locked" >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.facebook.orca.category.PLATFORM_THREAD_20150314" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="aisoai.screens.gamescreeens.findpokemongame.FindPokemonGameActivity"
+            android:label="Find Pokemon Game"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.gamescreeens.doublepokemongame.DoublePokemonGameActivity"
+            android:label="Double Pokemon Game"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.gamescreeens.snakehuntinggame.SnakeHuntingGameActivity"
+            android:label="Spider Web Game"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.gamescreeens.tetrisgame.TetrisGameActivity"
+            android:label="Tetris Game"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.gamescreeens.carogame.CaronGameActivity"
+            android:label="Caro Game"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.scoringscreen.scoringcaro.ScoringCaroActivity"
+            android:label="Scoring Caro Game"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="aisoai.screens.scoringscreen.scoringvsgame.ScoringVsGameActivity"
+            android:label="Scoring Vs Game"
+            android:screenOrientation="locked" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+    </application>
+
+</manifest>
