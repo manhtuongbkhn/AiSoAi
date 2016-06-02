@@ -37,7 +37,9 @@ public class CMDRQ
     public static final String FINDPOKEMONGAMEANSWER_RQ="findpokemongame_answer_rq";
 
     //SnakehHuntingGame
-    public static final String SNAKEHUNTINGGAMEANSWER_RQ="snakehuntinggame_answer_rq";
+    public static final String SNAKEHUNTINGGAMEEATAPPLE_RQ="snakehuntinggame_eatapple_rq";
+    public static final String SNAKEHUNTINGDIEANSWER_RQ="snakehuntinggame_die_rq";
+
 
     //TetrisGame
     public static final String TETRISGAMEANSWER_RQ="tetrisgame_answer_rq";

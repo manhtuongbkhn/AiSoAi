@@ -160,7 +160,7 @@ public class SnakeHuntingControl extends TITSingleGameControl
     public void eateAppleEvent()
     {
         Apple apple=getScene().getApple();
-        getRequestFactory().sendGameAnswer(apple.getIndex(),true);
+        getRequestFactory().eatAppleRequest(apple.getIndex());
         getScene().detachChild(getScene().getApple());
         gameScriptReader.resume();
     }
@@ -169,7 +169,7 @@ public class SnakeHuntingControl extends TITSingleGameControl
     {
         getScene().getSnake().stop();
         getScene().removeSnake(getScene().getSnake());
-        getRequestFactory().sendGameAnswer(-1,true);
+        getRequestFactory().dieRequest();
         initSnake();
         getScene().detachChild(getScene().getApple());
         gameScriptReader.resume();

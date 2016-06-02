@@ -11,14 +11,24 @@ import sfs2x.client.requests.ExtensionRequest;
 
 public class SnakeHuntingGameRF extends TITRequestFactory
 {
-    public void sendGameAnswer(int index,boolean eated)
+    public void eatAppleRequest(int index)
     {
         Room room=getSFSClient().getLastJoinedRoom();
         SFSObject toServerData=new SFSObject();
         toServerData.putInt(KJS.INDEX,index);
-        toServerData.putBool(KJS.PARAM1,eated);
+        toServerData.putInt(KJS.GAME_ID,4);
         ExtensionRequest request=new ExtensionRequest
-                                            (CMDRQ.SNAKEHUNTINGGAMEANSWER_RQ,toServerData,room);
+                                            (CMDRQ.SNAKEHUNTINGGAMEEATAPPLE_RQ,toServerData,room);
+        sendRequest(request);
+    }
+
+    public void dieRequest()
+    {
+        Room room=getSFSClient().getLastJoinedRoom();
+        SFSObject toServerData=new SFSObject();
+        toServerData.putInt(KJS.GAME_ID,4);
+        ExtensionRequest request=new ExtensionRequest
+                (CMDRQ.SNAKEHUNTINGDIEANSWER_RQ,toServerData,room);
         sendRequest(request);
     }
 }

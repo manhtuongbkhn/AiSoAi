@@ -14,6 +14,7 @@ public class TetrisGameRF extends TITRequestFactory
     {
         Room room=getSFSClient().getLastJoinedRoom();
         SFSObject toServerData=new SFSObject();
+        toServerData.putInt(KJS.GAME_ID,5);
         toServerData.putInt(KJS.INDEX,index);
         toServerData.putInt(KJS.PARAM1,fullItemRowCount);
         ExtensionRequest request=new ExtensionRequest(CMDRQ.TETRISGAMEANSWER_RQ,toServerData,room);

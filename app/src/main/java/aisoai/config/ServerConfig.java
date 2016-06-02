@@ -4,8 +4,8 @@ public class ServerConfig
 {
     public static String getIpServer()
     {
-        //return "103.54.250.124";
-        return "192.168.1.3";
+        return "103.54.250.124";
+        //return "192.168.1.3";
     }
     public static int getPortServer()
     {
